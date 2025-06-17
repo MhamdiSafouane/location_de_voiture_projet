@@ -56,12 +56,12 @@ const TokenAdmin= JSON.parse(localStorage.getItem("token-admin"))
     return<>
  { TokenAdmin?<> <AdminpageNav/>
     <div id="form-main-container-and-main-block">
-     <h2 id="name-of-car-detail">Add Car Details</h2>
+     <h2 id="name-of-car-detail">Ziiid details</h2>
      <form id="form-add-car-details" onSubmit={submitFunction}>
         <FormStructure data={data} setData={setData}/>
          <div className="input-gap-bottom " id="btn-cancle-add-detail-container">
-         <button id="btn-cancle-add-detail" onClick={()=>navigator1("/admin-page")}>Cancel</button>
-         <button id="btn-Add-add-detail-ans-save" onClick={()=>setLoder(true)}>Add</button>
+         <button id="btn-cancle-add-detail" onClick={()=>navigator1("/admin-page")}>Fassa5</button>
+         <button id="btn-Add-add-detail-ans-save" onClick={()=>setLoder(true)}>Ziiiid ...</button>
         </div>
      </form>
      <Backdrop
