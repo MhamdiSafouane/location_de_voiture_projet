@@ -228,7 +228,7 @@ export default function EditCarDetails() {
                       name="Details"
                       placeholder="Add Details"
                       onChange={(e) =>
-                        setEdit({ ...edit, Details: e.target.value })
+                         setEdit({ ...edit, Details: e.target.value })
                       }
                       value={edit.Details}
                     ></textarea>
