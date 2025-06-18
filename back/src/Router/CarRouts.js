@@ -8,7 +8,6 @@ const {GridFSBucket, MongoClient} = require("mongodb");
 const { model } = require( "mongoose" );
 
 
-// ****---------------We Use Multer for add Images----------------******//
 
 const storage = new GridFsStorage({
     url:process.env.DB_URL+process.env.DATABASE,
@@ -25,7 +24,6 @@ const upload = multer({
 
 const middleware= upload.single("image")
 
-// *****************************Routes ****************************//
 
 Router
 .route('/:image')
