@@ -11,14 +11,14 @@ Router
    .route('/login')
    .post(cors(), loginUserCtrl)
 
-// Router
-//   .route('/')
-//   .get()
+Router
+   .route('/')
+   .get()
 
-// Router
-//   .route('/:id')
-//   .get()
-//   .delete()
+Router
+   .route('/:id')
+   .get()
+   .delete()
 
 
 
